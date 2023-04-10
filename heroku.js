@@ -1,6 +1,6 @@
 const Heroku = require('heroku-client');
 const heroku = new Heroku({ token: 'your-heroku-api-key' });
-const { APP_NAME , PROCESS_TYPE , HEROKU_API_KEY } = require('./app.js');
+const { APP_NAME , PROCESS_TYPE , HEROKU_API_KEY } = require('./app.json');
 
 
 // Replace with the app name and process type for the target Heroku app
